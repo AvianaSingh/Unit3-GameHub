@@ -41,7 +41,11 @@
 /* STEP 5 ▸ Zoom on hover: give .split-media overflow: hidden and a border-radius,
    give the img a transition on transform, and on .split-media:hover img
    use transform: scale(1.06). */
-.split-media {
+.split-media-hover img{
+   transform: scale (1.06);
+}
+
+   .split-media {
   overflow: hidden;
   border-radius: 12px;
 }
